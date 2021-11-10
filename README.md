@@ -1,7 +1,7 @@
 # Workout-Tracker-App
 
 ## Description 
-This project is emblematic of the fact that most modern websites are driven by two things: data and user demands. As the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant. this is a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API.
+in this week , we learned about mongoDB and mongoose so from what we learning, we will try to create an application to track our fitness. the purposed of the app is to help everyones have a better routine for their workout and also more effectiveness while their work out. This was a difficult and interesting project, through out the project i learned alot. 
 
 ## Table of Contents 
 - [Title](#Title)
@@ -18,20 +18,21 @@ This project is emblematic of the fact that most modern websites are driven by t
 
 ## User Story
 
-```md
-AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
-```
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+
 
 ## Technologies
-Apollo Server
-Apollo Provider
-GraphQL
-JWT (JSON Web Token)
+Node.js
+Express.js
+MongoDB
+Mongoose
+[MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/)
+[MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/)
+[Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate)
 ## Live Site
-https://book-search-engine-kt.herokuapp.com/
-![Google Book Sear](https://user-images.githubusercontent.com/82126894/141032601-00e8cbcc-003b-4f41-a074-5c4ecff9c48f.png)
+
+
+![Fitness Tracker](https://user-images.githubusercontent.com/82126894/141088142-58c6dcdb-ce0b-4966-967e-63f39779dd9a.png)
 
 ## Contact Information 
 email me at : khanhtruong_1992@yahoo.com 
