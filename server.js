@@ -18,7 +18,7 @@ app.use( express.static( 'public' ) );
 // app.use(require('./routes/view.js'))
 
 
-mongoose.connect( process.env.MONGODB_URI || 'mongodb://localhost/workout',
+mongoose.connect( process.env.MONGODB_URI || 'mongodb+srv://khanhtruong:khanhtruong123@cluster0.pybaf.mongodb.net/fitness-tracker?retryWrites=true&w=majority',
 	{
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
